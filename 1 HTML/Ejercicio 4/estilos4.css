@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#menu {
+	width: 160px;
+	background: black;
+	justify-self: left;
+	height: 100vh
+}
+
+ul.listamenu {
+	line-height:300%;
+	font-family: Helvetica;
+	font-size: 12px;
+	font-weight: bold;
+	color: #333333;
+}
+
+ul.listamenu li a:link {
+	display:block;
+	text-decoration:none;
+	text-align: left;
+	text-indent: 14px;
+	width:156px;
+	background-color: #000000;
+	border: 2px orange solid;
+	color: orange;
+}
+
+ul.listamenu li a:hover {
+	background-color: orange;
+	background-image: url("../img/flecha.gif");
+	background-repeat: no-repeat;
+	background-position: 0 20px;
+	color: #FFFFFF;
+}
+
+
+ul.listamenu li a:active {
+	background: #6699FF url("../img/flecha.gif") no-repeat 0 20px;
+	color: #FFFFFF;
+}
+
+ul.listamenu li a:visited {
+	display:block;
+	text-decoration:none;
+	text-align: left;
+	text-indent: 14px;
+	width:156px;
+	background-color: #CCCCCC;
+	color: #666666;
+}
